@@ -17,7 +17,7 @@ This module is useful when multiple i2c devices must be connected to a microcont
 
 
 | A2 | A1 | A0 | I2C Address |
-| -- | -- | -- | ----------- |
+| :---: | :---: | :---: | :---------: |
 | 0  | 0  | 0  |    0X70     |
 | 0  | 0  | 1  |    0X71     |
 | 0  | 1  | 0  |    0X72     |
