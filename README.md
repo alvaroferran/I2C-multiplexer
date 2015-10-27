@@ -34,7 +34,11 @@ This module is useful when multiple i2c devices must be connected to a microcont
 #### LIBRARY
 
 · To install the library simply copy the folder "I2CMux" into your folder "sketchbook/libraries/".
+
 &nbsp;
+
 · The module's address is passed to the constructor, while the channel is selected by the method "switchToBus(busNumber)", with busNumber between 0 and 7.
+
 &nbsp;
+
 · In the "examples" subfolder an example sketch is available which demonstrates how to switch between different i2c channels, reading data from two [BNO055](https://github.com/bqlabs/BNO055) sensors with the same address in different buses.
